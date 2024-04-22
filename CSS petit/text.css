@@ -1,0 +1,41 @@
+
+.section__inner{
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+/* style de la page */
+.office, figure, footer, main, nav, header {
+    display: block;
+}
+.after, :before {
+    box-sizing: inherit;
+}
+section {
+    display: block;
+}
+body {
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+    padding-top: 70px;
+}
+
+.section__inner:after, .section__inner:before {
+    content: "";
+    display: table;
+}
+.section__inner:after {
+    clear: both;
+}
+.section__inner:after, .section__inner:before {
+    content: "";
+    display: table;
+}
+.selection {
+    background: #00b39b;
+    color: #fff;
+    text-shadow: none;
+}
